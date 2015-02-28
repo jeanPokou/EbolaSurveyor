@@ -1,5 +1,5 @@
 
-### Welcome “Ebola SURVEYOR Pages.
+### Welcome “Ebola SURVEYOR 
 
 Ebola Surveyor is an application to stop Ebola outreach in West Africa developed by  ***jean Pokou*** pour le groupe Ivoirien  **IVOCARTE ABYSHOP**. This application was built using [Ionic](http://ionicframework.com/) the beautiful, open source front-end SDK for developing hybrid mobile apps with HTML5  and google  [Angular Js](https://angularjs.org/).
 

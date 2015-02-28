@@ -19,11 +19,11 @@ Then Move to the directory of the project, build android or iOS and start, thatâ
 ```$ ionic run  android    <br/>```
 (If you have a connected android device) otherwise the emulator will start <br/>
 
-_# NB: you need Apache ant and Android development Tools in you environment path if you are on Windows. <br/>
-Yyou can google how to use Cordova._
+<i> NB: you need Apache ant and Android development Tools in you environment path if you are on Windows. <br/>
+Yyou can google how to use Cordova. </i>
 
-# Image Credits goes to IVOCARTE ABYSHOP. 
+### Image Credits goes to IVOCARTE ABYSHOP. 
 
-#Support or Contact
+### Support or Contact
 Having trouble with using it ? <br/> 
 Any help you want I am here jeanpokou@gmail.com or [@jeanpokou](https://twitter.com/JeanPOKOU)

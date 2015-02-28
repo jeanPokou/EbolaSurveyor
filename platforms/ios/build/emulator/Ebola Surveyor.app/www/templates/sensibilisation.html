@@ -1,0 +1,89 @@
+<ion-view title="Sensibilisation Interractive" ng-controller="sensibilisationCtrl as self" >
+  <ion-nav-buttons side="left">
+      <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+  </ion-nav-buttons>
+  <!--<ion-content class="has-header" >-->
+
+          <ion-slide-box on-slide-changed="self.slideChanged($index)" >
+
+          <ion-slide>
+              <div class="list card" >
+          <div class="item item-avatar" animation="slide-left-right-ios7">
+              <img src="img/Ebola_virus.png">
+              <h2>Maladie à virus Ebola</h2>
+              <p>Première image d'une particule virale Ebola obtenue par microscopie électronique en transmission en octobre 1976</p>
+
+          </div>
+
+          <div class="item item-body">
+              <img class="full-image" src="img/virus.jpg">
+              <p>
+                  Le virus Ebola est apparu pour la première fois en 1976, lors de deux flambées simultanées à Nzara (Soudan)
+                  et à Yambuku (République démocratique du Congo).
+                  Yambuku étant situé près de la rivière Ebola , c’est de là qu’est venu le nom de la maladie.
+              </p>
+
+          </div>
+
+          <div class="item tabs tabs-secondary tabs-icon-left" ng-controller="quizzCtrl as self">
+              <a class="tab-item" href="#">
+                  <i class="icon ion-play"></i>
+                  Ecouter
+              </a>
+              <a class="tab-item" href="#"  ng-click="self.showPopup()">
+                  <i class="icon ion-ios7-help" ></i>
+                  Quizz
+              </a>
+              <a class="tab-item" href="#" ng-click="self.showToast()">
+                  <i class="icon ion-android-share"></i>
+                 Share
+              </a>
+          </div>
+                  </div>
+          </ion-slide>
+
+              <ion-slide>
+                  <div class="list card" >
+                      <div class="item item-avatar" animation="slide-left-right-ios7">
+                          <img src="img/Ebola_virus.png">
+                          <h2>Maladie à virus Ebola</h2>
+                          <p>Première image d'une particule virale Ebola obtenue par microscopie électronique en transmission en octobre 1976</p>
+
+                      </div>
+
+                      <div class="item item-body">
+                          <img class="full-image" src="img/virus.jpg">
+                          <p>
+                              Le virus Ebola est apparu pour la première fois en 1976, lors de deux flambées simultanées à Nzara (Soudan)
+                              et à Yambuku (République démocratique du Congo).
+                              Yambuku étant situé près de la rivière Ebola , c’est de là qu’est venu le nom de la maladie.
+                          </p>
+
+                      </div>
+
+                      <div class="item tabs tabs-secondary tabs-icon-left" ng-controller="quizzCtrl as self">
+                          <a class="tab-item" href="#">
+                              <i class="icon ion-play"></i>
+                              Ecouter
+                          </a>
+                          <a class="tab-item"  ng-click="self.showPopup()">
+                              <i class="icon ion-ios7-help"  ></i>
+                              Quizz
+                          </a>
+                          <a class="tab-item" href="#">
+                              <i class="icon ion-android-share"></i>
+                              Share
+                          </a>
+                      </div>
+                  </div>
+              </ion-slide>
+
+
+
+          </ion-slide-box>
+
+
+
+  <!--</ion-content>-->
+
+</ion-view>

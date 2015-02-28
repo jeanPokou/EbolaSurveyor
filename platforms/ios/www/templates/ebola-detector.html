@@ -1,0 +1,86 @@
+<ion-view title="Ebola detector" ng-controller="ebolaDetectorCtrl as self">
+    <ion-nav-buttons side="left">
+        <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+    </ion-nav-buttons>
+    <ion-content class="has-header">
+
+
+        <ion-slide-box   on-slide-changed="self.slideChanged($index)" >
+
+            <ion-slide >
+        <div class="list card"     >
+            <div  animation="slide-left-right-ios7">
+
+                <h4 class="ebolaTitle padding"> {{self.initial.title}}</h4>
+                <p class="padding">{{self.initial.question}}</p>
+
+            </div>
+
+            <div class="item item-body">
+                <ul class="list" >
+                    <li class="item item-checkbox" ng-repeat="element in self.initial.reponses">
+                        <label class="checkbox">
+                            <input type="checkbox" ng-model="element.statusChecked" >
+                        </label>
+                        <p><span >{{element.title}}</span></p>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="item tabs tabs-secondary tabs-icon-left"   >
+                <a class="tab-item" ng-click=" self.checkAnswers1()">
+                    <i class="icon ion-ios7-circle-filled"></i>
+                    Verifier
+                </a>
+                <a class="tab-item" ng-click="self.refresh1()"  >
+                    <i class="icon ion-ios7-refresh" ></i>
+                    Réinitialiser
+                </a>
+
+            </div>
+        </div>
+                </ion-slide>
+
+            <ion-slide >
+                <div class="list card"     >
+                    <div  animation="slide-left-right-ios7">
+
+                        <h4 class="ebolaTitle padding"> {{self.final.title}}</h4>
+                        <p class="padding">{{self.final.question}}</p>
+
+                    </div>
+
+                    <div class="item item-body">
+                        <ul class="list" >
+                            <li class="item item-checkbox" ng-repeat="element in self.final.reponses">
+                                <label class="checkbox">
+                                    <input type="checkbox" ng-model="element.statusChecked" >
+                                </label>
+                                <p><span >{{element.title}}</span></p>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                    <div class="item tabs tabs-secondary tabs-icon-left"   >
+                        <a class="tab-item" ng-click=" self.checkAnswers2()">
+                            <i class="icon ion-ios7-circle-filled"></i>
+                            Verifier
+                        </a>
+                        <a class="tab-item" ng-click="self.refresh2()"  >
+                            <i class="icon ion-ios7-refresh" ></i>
+                            Réinitialiser
+                        </a>
+
+                    </div>
+                </div>
+            </ion-slide>
+
+            </ion-slide-box>
+
+    </ion-content>
+</ion-view>
+
+
+

@@ -1,0 +1,102 @@
+
+<ion-view title="Sensibilisation Interractive" ng-controller="plancheDetailsCtrl as self"   >
+    <ion-nav-buttons side="left">
+        <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+    </ion-nav-buttons>
+<ion-content  >
+
+    <ion-slide-box   on-slide-changed="self.slideChanged($index)" >
+
+        <ion-slide >
+            <div class="list card" >
+                <div class="item item-avatar" animation="slide-left-right-ios7">
+                    <img ng-src="{{self.imageUrl.url}}">
+                    <h3 class="ebolaTitle"> {{self.title}}</h3>
+                   <h4 style="white-space: normal;">{{self.subTitle}}</h4>
+
+                </div>
+
+                <div class="item item-body" >
+                    <img class="full-image" ng-src="{{self.imageUrl.url}}">
+                    <p >
+                        <!-- ng-bind-html="self.reponse"-->
+                        {{self.reponse}}
+                    </p>
+
+                </div>
+
+                <div class="item item-divider tabs tabs-secondary tabs-icon-left" >
+                    <a class="tab-item"  ng-show="self.visibleAudio" ng-click="self.showAudioReader()">
+                        <i class="icon ion-play"></i>
+                        Jouer
+                    </a>
+                    <a class="tab-item"   ng-show="self.visibleShareQuizz" ng-click="self.slideNext()">
+                        <i class="icon ion-ios7-help" ></i>
+                        Quizz
+                    </a>
+                    <a class="tab-item"   ng-show="self.visibleShareQuizz" ng-click="self.share()">
+                        <i class="icon ion-android-share"></i>
+                        Partager
+                    </a>
+
+                    <a ng-show="!self.visibleShareQuizz" ng-click="self.hideAudioReader()" class="tab-item">
+                        <i class="icon ion-stop" ></i>
+                    </a>
+
+
+                        <a  ng-show="!self.visibleShareQuizz" class="tab-item" ng-click="self.fastBackward()">
+                            <i class="icon ion-skip-backward"></i>
+                        </a>
+                        <a  ng-show="!self.visibleShareQuizz" class="tab-item" ng-click="self.pause()">
+                            <i class="icon ion-pause"></i>
+                        </a>
+                        <a  ng-show="!self.visibleShareQuizz" class="tab-item" ng-click="self.play()">
+                            <i class="icon ion-play"></i>
+                        </a>
+
+
+
+                </div>
+            </div>
+        </ion-slide>
+
+        <ion-slide >
+            <div class="list card" >
+                <div  animation="slide-left-right-ios7">
+
+                    <h4 class="ebolaTitle"> QUESTION</h4>
+                    <p>{{self.planche.quizz}}</p>
+
+                </div>
+
+                <div class="item item-body">
+                    <ul class="list" >
+                        <li class="item item-checkbox" ng-repeat="ans in self.planche.quizzAnswers" >
+                            <label class="checkbox">
+                                <input type="checkbox" ng-model="ans.checkedStatus" >
+                            </label>
+                            <p><span  ng-class="ans.style">{{ans.title}}</span></p>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="item tabs tabs-secondary tabs-icon-left"   >
+                    <a class="tab-item" ng-click=" self.checkAnswers()">
+                        <i class="icon ion-ios7-circle-filled"></i>
+                        Verifier
+                    </a>
+                    <a class="tab-item" ng-click="self.refresh()"  >
+                        <i class="icon ion-ios7-refresh" ></i>
+                        Réinitialiser
+                    </a>
+
+                </div>
+            </div>
+        </ion-slide>
+
+    </ion-slide-box>
+
+</ion-content>
+
+</ion-view>

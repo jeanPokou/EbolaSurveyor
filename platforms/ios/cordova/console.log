@@ -1,0 +1,70 @@
+2014-10-19 18:45:50.813 Ebola Surveyor[6166:171986] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/jeanpokou/Library/Developer/CoreSimulator/Devices/5213781F-A3B2-4140-A0E1-D5C2E55765D8/data/Containers/Data/Application/101C057D-B6B4-4592-BEEF-9AB624F0DFCE/Library/Cookies/Cookies.binarycookies
+2014-10-19 18:45:50.874 Ebola Surveyor[6166:171986] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-19 18:45:50.875 Ebola Surveyor[6166:171986] Multi-tasking -> Device: YES, App: YES
+2014-10-19 18:45:50.901 Ebola Surveyor[6166:171986] Unlimited access to network resources
+2014-10-19 18:45:51.196 Ebola Surveyor[6166:171986] [CDVTimer][keyboard] 0.085950ms
+2014-10-19 18:45:51.240 Ebola Surveyor[6166:171986] [CDVTimer][socialsharing] 43.320000ms
+2014-10-19 18:45:51.244 Ebola Surveyor[6166:171986] [CDVTimer][file] 4.103005ms
+2014-10-19 18:45:51.322 Ebola Surveyor[6166:171986] [CDVTimer][splashscreen] 77.911019ms
+2014-10-19 18:45:51.322 Ebola Surveyor[6166:171986] [CDVTimer][TotalPluginStartup] 126.147985ms
+2014-10-19 18:45:51.652 Ebola Surveyor[6166:171986] Resetting plugins due to page load.
+2014-10-19 18:45:52.138 Ebola Surveyor[6166:171986] Finished load of: file:///Users/jeanpokou/Library/Developer/CoreSimulator/Devices/5213781F-A3B2-4140-A0E1-D5C2E55765D8/data/Containers/Bundle/Application/B223F4C7-05E9-4731-A4CF-4F400DA11328/Ebola%20Surveyor.app/www/index.html#/app/planchesList
+2014-10-19 18:54:59.719 Ebola Surveyor[6628:175647] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-19 18:54:59.721 Ebola Surveyor[6628:175647] Multi-tasking -> Device: YES, App: YES
+2014-10-19 18:54:59.730 Ebola Surveyor[6628:175647] Unlimited access to network resources
+2014-10-19 18:54:59.900 Ebola Surveyor[6628:175647] [CDVTimer][keyboard] 0.149965ms
+2014-10-19 18:54:59.969 Ebola Surveyor[6628:175647] [CDVTimer][socialsharing] 69.125056ms
+2014-10-19 18:54:59.974 Ebola Surveyor[6628:175647] [CDVTimer][file] 4.297018ms
+2014-10-19 18:54:59.994 Ebola Surveyor[6628:175647] [CDVTimer][splashscreen] 20.331979ms
+2014-10-19 18:54:59.995 Ebola Surveyor[6628:175647] [CDVTimer][TotalPluginStartup] 95.215023ms
+2014-10-19 18:55:00.073 Ebola Surveyor[6628:175647] Resetting plugins due to page load.
+2014-10-19 18:55:00.601 Ebola Surveyor[6628:175647] Finished load of: file:///Users/jeanpokou/Library/Developer/CoreSimulator/Devices/5213781F-A3B2-4140-A0E1-D5C2E55765D8/data/Containers/Bundle/Application/EA424356-AFFB-40F6-915E-FBFE0071F500/Ebola%20Surveyor.app/www/index.html#/app/planchesList
+2014-10-19 18:55:15.834 Ebola Surveyor[6628:175647] Will attempt to use file resource '/android_asset/www/audio/planche1/audio.mp3'
+2014-10-19 18:55:15.834 Ebola Surveyor[6628:175647] Unknown resource '/android_asset/www/audio/planche1/audio.mp3'
+2014-10-19 18:55:24.610 Ebola Surveyor[6628:175647] THREAD WARNING: ['SocialSharing'] took '32.885254' ms. Plugin should use a background thread.
+2014-10-19 18:55:38.452 Ebola Surveyor[6628:175647] Will attempt to use file resource '/android_asset/www/audio/planche1/message.mp3'
+2014-10-19 18:55:38.453 Ebola Surveyor[6628:175647] Unknown resource '/android_asset/www/audio/planche1/message.mp3'
+2014-10-19 18:59:13.264 Ebola Surveyor[6628:176394] Terminating since there is no system app.
+2014-10-19 18:59:45.455 Ebola Surveyor[7005:177294] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-19 18:59:45.456 Ebola Surveyor[7005:177294] Multi-tasking -> Device: YES, App: YES
+2014-10-19 18:59:45.463 Ebola Surveyor[7005:177294] Unlimited access to network resources
+2014-10-19 18:59:45.582 Ebola Surveyor[7005:177294] [CDVTimer][keyboard] 0.061035ms
+2014-10-19 18:59:45.628 Ebola Surveyor[7005:177294] [CDVTimer][socialsharing] 46.543002ms
+2014-10-19 18:59:45.632 Ebola Surveyor[7005:177294] [CDVTimer][file] 3.749967ms
+2014-10-19 18:59:45.647 Ebola Surveyor[7005:177294] [CDVTimer][splashscreen] 14.688969ms
+2014-10-19 18:59:45.647 Ebola Surveyor[7005:177294] [CDVTimer][TotalPluginStartup] 65.735996ms
+2014-10-19 18:59:45.697 Ebola Surveyor[7005:177294] Resetting plugins due to page load.
+2014-10-19 18:59:46.146 Ebola Surveyor[7005:177294] Finished load of: file:///Users/jeanpokou/Library/Developer/CoreSimulator/Devices/5213781F-A3B2-4140-A0E1-D5C2E55765D8/data/Containers/Bundle/Application/10B4709C-8B34-41B3-B1AC-1ACCA86AB49C/Ebola%20Surveyor.app/www/index.html#/app/planchesList
+2014-10-19 19:01:43.799 Ebola Surveyor[7380:178637] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-19 19:01:43.801 Ebola Surveyor[7380:178637] Multi-tasking -> Device: YES, App: YES
+2014-10-19 19:01:43.808 Ebola Surveyor[7380:178637] Unlimited access to network resources
+2014-10-19 19:01:43.924 Ebola Surveyor[7380:178637] [CDVTimer][keyboard] 0.056028ms
+2014-10-19 19:01:43.967 Ebola Surveyor[7380:178637] [CDVTimer][socialsharing] 43.457985ms
+2014-10-19 19:01:43.970 Ebola Surveyor[7380:178637] [CDVTimer][file] 2.521992ms
+2014-10-19 19:01:43.985 Ebola Surveyor[7380:178637] [CDVTimer][splashscreen] 14.653981ms
+2014-10-19 19:01:43.985 Ebola Surveyor[7380:178637] [CDVTimer][TotalPluginStartup] 61.356008ms
+2014-10-19 19:01:44.031 Ebola Surveyor[7380:178637] Resetting plugins due to page load.
+2014-10-19 19:01:44.480 Ebola Surveyor[7380:178637] Finished load of: file:///Users/jeanpokou/Library/Developer/CoreSimulator/Devices/5213781F-A3B2-4140-A0E1-D5C2E55765D8/data/Containers/Bundle/Application/F3F43651-F2A4-49FC-A7EC-AAF944829170/Ebola%20Surveyor.app/www/index.html#/app/planchesList
+2014-10-19 19:03:39.274 Ebola Surveyor[7768:180322] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-19 19:03:39.276 Ebola Surveyor[7768:180322] Multi-tasking -> Device: YES, App: YES
+2014-10-19 19:03:39.281 Ebola Surveyor[7768:180322] Unlimited access to network resources
+2014-10-19 19:03:39.379 Ebola Surveyor[7768:180322] [CDVTimer][keyboard] 0.068009ms
+2014-10-19 19:03:39.423 Ebola Surveyor[7768:180322] [CDVTimer][socialsharing] 42.972028ms
+2014-10-19 19:03:39.426 Ebola Surveyor[7768:180322] [CDVTimer][file] 3.411949ms
+2014-10-19 19:03:39.443 Ebola Surveyor[7768:180322] [CDVTimer][splashscreen] 16.794026ms
+2014-10-19 19:03:39.443 Ebola Surveyor[7768:180322] [CDVTimer][TotalPluginStartup] 64.009011ms
+2014-10-19 19:03:39.493 Ebola Surveyor[7768:180322] Resetting plugins due to page load.
+2014-10-19 19:03:40.011 Ebola Surveyor[7768:180322] Finished load of: file:///Users/jeanpokou/Library/Developer/CoreSimulator/Devices/5213781F-A3B2-4140-A0E1-D5C2E55765D8/data/Containers/Bundle/Application/9CB47CCB-DD9A-4A13-851C-CD24EB3F32DE/Ebola%20Surveyor.app/www/index.html#/app/planchesList
+2014-10-19 19:04:14.379 Ebola Surveyor[7768:180322] THREAD WARNING: ['InAppBrowser'] took '133.457275' ms. Plugin should use a background thread.
+2014-10-19 19:04:32.123 Ebola Surveyor[7768:180322] THREAD WARNING: ['InAppBrowser'] took '66.063965' ms. Plugin should use a background thread.
+2014-10-20 21:22:11.619 Ebola Surveyor[8211:189535] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-20 21:22:11.620 Ebola Surveyor[8211:189535] Multi-tasking -> Device: YES, App: YES
+2014-10-20 21:22:11.626 Ebola Surveyor[8211:189535] Unlimited access to network resources
+2014-10-20 21:22:11.780 Ebola Surveyor[8211:189535] [CDVTimer][keyboard] 0.068009ms
+2014-10-20 21:22:11.823 Ebola Surveyor[8211:189535] [CDVTimer][socialsharing] 42.704999ms
+2014-10-20 21:22:11.828 Ebola Surveyor[8211:189535] [CDVTimer][file] 5.034029ms
+2014-10-20 21:22:11.864 Ebola Surveyor[8211:189535] [CDVTimer][splashscreen] 35.551965ms
+2014-10-20 21:22:11.864 Ebola Surveyor[8211:189535] [CDVTimer][TotalPluginStartup] 84.357977ms
+2014-10-20 21:22:11.917 Ebola Surveyor[8211:189535] Resetting plugins due to page load.
+2014-10-20 21:22:12.434 Ebola Surveyor[8211:189535] Finished load of: file:///Users/jeanpokou/Library/Developer/CoreSimulator/Devices/5213781F-A3B2-4140-A0E1-D5C2E55765D8/data/Containers/Bundle/Application/E9127B29-2F29-4CFC-8988-2ACCFA22344C/Ebola%20Surveyor.app/www/index.html#/app/planchesList
+2014-10-20 21:22:54.401 Ebola Surveyor[8211:189912] Terminating since there is no system app.
